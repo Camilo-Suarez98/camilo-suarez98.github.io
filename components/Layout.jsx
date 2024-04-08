@@ -6,7 +6,7 @@ import React, { useContext, useState } from "react";
 import { ThemeContext } from "/context/ThemeContext";
 import Header from "./Header";
 import Footer from "./Footer";
-import TechnologieUsed from "./TechnologieUsed";
+import TechnologiesUsed from "./TechnologiesUsed";
 
 const Layout = ({ title, children }) => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -52,9 +52,9 @@ const Layout = ({ title, children }) => {
             <h2 className="text-xl">This page was created with</h2>
           </div>
           <div className="w-3/4 m-auto grid grid-cols-3 sm:grid-cols-2">
-            <TechnologieUsed icon={reactIcon} technologyName="ReactJS" />
-            <TechnologieUsed icon={nextIcon} technologyName="NextJS" />
-            <TechnologieUsed icon={tailwindIcon} technologyName="TailwindCSS" />
+            <TechnologiesUsed icon={reactIcon} technologyName="ReactJS" />
+            <TechnologiesUsed icon={nextIcon} technologyName="NextJS" />
+            <TechnologiesUsed icon={tailwindIcon} technologyName="TailwindCSS" />
           </div>
         </div>
 

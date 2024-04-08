@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const TechnologieUsed = ({ icon, technologyName }) => {
+const TechnologiesUsed = ({ icon, technologyName }) => {
   return (
     <div className="flex flex-col items-center justify-center ls:py-4 transition-all duration-300 hover:-translate-y-3">
       <Image src={icon} width={50} height={50} />
@@ -9,4 +9,4 @@ const TechnologieUsed = ({ icon, technologyName }) => {
   );
 };
 
-export default TechnologieUsed;
+export default TechnologiesUsed;
