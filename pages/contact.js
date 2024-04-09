@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react';
 import FormInput from '../components/FormInput';
 import Layout from '/components/Layout';
+import TitlePage from '../components/TitlePage';
 
 const contact = () => {
   const inputRef = useRef();
@@ -13,7 +14,7 @@ const contact = () => {
 
   return (
     <Layout title="Contact">
-      <h1 className="font-semibold text-4xl text-center mb-8">Contact Form</h1>
+      <TitlePage level={1} value="Contact Form" />
       <div className="flex flex-col items-center justify-start py-7">
         <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Send me a message</h2>
