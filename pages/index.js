@@ -1,13 +1,14 @@
 import Layout from "/components/Layout";
 import Buttons from "/components/Buttons";
 import Social from "/components/Social";
+import TitlePage from "../components/TitlePage";
 
 export default function Home() {
   return (
     <>
       <Layout title="Home">
         <div className="flex flex-col justify-around items-center mt-20 h-80 w-full ls:h-5/6 md:mt-16 lg:mt-24 2xl:mt-20">
-          <h1 className="font-semibold text-center mb-12 text-4xl text-gray-700 md:mb-4">Hi!👋 I'm Camilo</h1>
+          <TitlePage level={1} value="Hi!👋 I'm Camilo" />
           <p className="text-2xl text-gray-500 pb-12 text-center">
             I'm a dedicated Frontend Developer located in Bucaramanga, Col 🇨🇴.
             <br />
