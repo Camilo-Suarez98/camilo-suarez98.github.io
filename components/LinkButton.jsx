@@ -1,4 +1,5 @@
 import Link from 'next/link';
+
 import UrlLink from './UrlLink';
 
 const LinkButton = ({ href, linkName }) => {
@@ -18,7 +19,7 @@ const LinkButton = ({ href, linkName }) => {
       >
         {linkName}
       </UrlLink>
-    )
+    );
   };
 };
 

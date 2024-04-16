@@ -1,6 +1,6 @@
-import Layout from "/components/Layout";
-import Buttons from "/components/Buttons";
-import Social from "/components/Social";
+import Layout from "../components/Layout";
+import Buttons from "../components/Buttons";
+import Social from "../components/Social";
 import TitlePage from "../components/TitlePage";
 
 export default function Home() {

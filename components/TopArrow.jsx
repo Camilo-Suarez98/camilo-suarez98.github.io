@@ -19,7 +19,7 @@ const TopArrow = () => {
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
+  };
 
   return isVisible && (
     <button

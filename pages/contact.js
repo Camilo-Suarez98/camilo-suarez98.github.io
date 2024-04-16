@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react';
+
 import FormInput from '../components/FormInput';
-import Layout from '/components/Layout';
+import Layout from '../components/Layout';
 import TitlePage from '../components/TitlePage';
 
 const contact = () => {

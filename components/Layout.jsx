@@ -1,11 +1,12 @@
+import { useContext, useState } from "react";
 import Head from "next/head";
+
+import Header from "./Header";
+import Footer from "./Footer";
 import nextIcon from "/public/nextjs-icon.svg";
 import reactIcon from "/public/react-icon.svg";
 import tailwindIcon from "/public/tailwind-icon.svg";
-import React, { useContext, useState } from "react";
 import { ThemeContext } from "/context/ThemeContext";
-import Header from "./Header";
-import Footer from "./Footer";
 import TechnologiesUsed from "./TechnologiesUsed";
 
 const Layout = ({ title, children }) => {

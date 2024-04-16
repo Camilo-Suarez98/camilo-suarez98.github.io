@@ -8,7 +8,7 @@ const SocialLink = ({ url, icon, socialName }) => {
         {socialName}
       </a>
     </Link>
-  )
-}
+  );
+};
 
 export default SocialLink;
