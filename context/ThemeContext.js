@@ -8,9 +8,14 @@ function ThemeProvider({ children }) {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
+  const value = {
+    theme,
+    toggleTheme
+  }
+
   return (
     <>
-      <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <ThemeContext.Provider value={value}>
         {children}
       </ThemeContext.Provider>
     </>
