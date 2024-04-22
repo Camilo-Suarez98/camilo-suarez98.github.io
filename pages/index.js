@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Layout title="Home">
-        <div className="flex flex-col justify-around items-center mt-20 h-80 w-full ls:h-5/6 md:mt-16 lg:mt-24 2xl:mt-20">
+        <div className="flex flex-col justify-around items-center mt-12 h-80 w-full ls:h-5/6 md:mt-16 lg:mt-24">
           <TitlePage level={1} value="Hi!👋 I'm Camilo" />
           <p className="text-2xl text-gray-500 pb-12 text-center">
             I'm a dedicated Frontend Developer located in Bucaramanga, Col 🇨🇴.
