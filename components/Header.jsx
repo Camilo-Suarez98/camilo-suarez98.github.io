@@ -1,10 +1,14 @@
 import logo from "/public/icono-portf.png";
 import Image from "next/image";
 import NavLink from "./NavLink";
+import { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
 
-const Header = ({ showMenu, menu, toggleTheme, theme }) => {
+const Header = ({ showMenu, menu }) => {
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   return (
-    <nav className="w-full relative flex flex-wrap items-center justify-between px-2 py-3 mb-10 ls:pb-0 ls:px-0">
+    <nav className="w-full relative flex flex-wrap items-center justify-between px-2 py-3 ls:pb-0 ls:px-0">
       <div className="container px-12 mx-auto flex items-center justify-between sm:flex-col sm:justify-center ls:px-0">
         <div className="flex relative px-4 sm:w-auto sm:static sm:justify-center">
           <a href="/" className="flex items-center text-sm font-bold leading-relaxed cursor-pointer mr-4 py-2 whitespace-nowrap uppercase text-gray-800 sm:mr-0">

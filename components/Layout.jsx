@@ -40,8 +40,6 @@ const Layout = ({ title, children }) => {
         <Header
           showMenu={showMenu}
           menu={menu}
-          toggleTheme={toggleTheme}
-          theme={theme}
         />
 
         <div className="w-3/4 m-auto h-full ls:mt-0 flex flex-col justify-evenly flex-wrap">
