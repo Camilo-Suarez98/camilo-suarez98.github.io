@@ -10,7 +10,7 @@ import { ThemeContext } from "/context/ThemeContext";
 import TechnologiesUsed from "./TechnologiesUsed";
 
 const Layout = ({ title, children }) => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
   const [menu, setMenu] = useState('inline');
   const showMenu = () => {
     setMenu(menu === 'inline' ? 'hidden' : 'inline');
@@ -37,10 +37,7 @@ const Layout = ({ title, children }) => {
         <link rel="stylesheet" href="style.css" />
       </Head>
       <div className={theme === 'light' ? 'dark' : 'light'}>
-        <Header
-          showMenu={showMenu}
-          menu={menu}
-        />
+        <Header />
 
         <div className="w-3/4 m-auto h-full ls:mt-0 flex flex-col justify-evenly flex-wrap">
           {children}

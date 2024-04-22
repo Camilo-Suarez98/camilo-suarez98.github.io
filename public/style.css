@@ -317,3 +317,11 @@ body {
 .dark .top-arrow {
     background-color: #0d4ba8;
 }
+
+.light .close-btn {
+    background-color: #c8c8c8;
+}
+
+.dark .close-btn {
+    background-color: #0d4ba8;
+}
