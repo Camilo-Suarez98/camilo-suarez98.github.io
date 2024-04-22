@@ -3,6 +3,7 @@ import Image from "next/image";
 import NavLink from "./NavLink";
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
+import BurgerMenu from "./BurgerMenu";
 
 const Header = ({ showMenu, menu }) => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -17,9 +18,7 @@ const Header = ({ showMenu, menu }) => {
         </div>
 
         <button onClick={showMenu} className="hidden ls:inline burger" type="button">
-          <span className="block relative w-6 h-px rounded-sm bg-white"></span>
-          <span className="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-          <span className="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+          <BurgerMenu />
         </button>
 
         <div className="flex flex-grow items-center z-50 transition duration-500 sm:justify-center sm:text-center ls:w-full ls:absolute ls:top-12 ls:-bottom-72 ls:m-auto">
