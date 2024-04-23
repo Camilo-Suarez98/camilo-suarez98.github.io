@@ -38,7 +38,7 @@ const Header = () => {
                 <NavLink href="/contact" title="Contact" />
                 <li className="w-full">
                   <a
-                    href="https://drive.google.com/file/d/1f2toB66E8Neg-LOpEwZ5jpJyhYLsj6eH/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/15h6n_X03FUTc6x5KbXa-MhcUPUVQ_lXg/view"
                     target="_blank"
                     className="border-resume px-3 py-2 border-2 sm:border-4 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 transition duration-500 hover:text-blue-700 ls:w-full ls:py-5 ls:justify-center"
                   >
