@@ -16,7 +16,7 @@ const Header = () => {
   useEscapeKey(toggleValue);
 
   return (
-    <nav className="w-full relative flex flex-wrap items-center justify-between px-2 py-3 ls:pb-0 ls:px-0">
+    <nav className="nav-color w-full relative flex flex-wrap items-center justify-between px-2 py-3 ls:pb-0 ls:px-0">
       <div className="container px-12 mx-auto flex items-center justify-between sm:flex-col sm:justify-center ls:px-0">
         <div className="flex relative px-4 sm:w-auto sm:static sm:justify-center">
           <a href="/" className="flex items-center text-sm font-bold leading-relaxed cursor-pointer mr-4 py-2 whitespace-nowrap uppercase text-gray-800 sm:mr-0">
@@ -29,7 +29,7 @@ const Header = () => {
         </button>
 
         <div className="flex flex-grow items-center z-50 transition justify-end duration-500 sm:justify-center sm:text-center ls:w-full ls:absolute ls:top-12 ls:-bottom-72 ls:m-auto">
-          <FocusLock returnFocus={true}>
+          <FocusLock>
             <ul className={!value ? 'ls:hidden flex list-none ml-auto transition-all duration-300' : 'menu-burger fixed inset-0 p-4 list-none ml-auto transition-all duration-300 ls:flex-col sm:justify-start ls:w-full ls:m-auto ls:items-center'}>
               <NavLink href="/" title="Home" />
               <NavLink href="/portfolio" title="Projects" />

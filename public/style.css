@@ -325,3 +325,11 @@ body {
 .dark .close-btn {
     background-color: #0d4ba8;
 }
+
+.light .nav-color {
+    background-color: #dfdfdf;
+}
+
+.dark .nav-color {
+    background-color: #1a3a6b;
+}
