@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Image from "next/image";
 import NavLink from "./NavLink";
 import FocusLock from "react-focus-lock";
+import { SunIcon, MoonIcon } from '@radix-ui/react-icons';
 
 import { ThemeContext } from "../context/ThemeContext";
 import logo from "/public/icono-portf.png";
@@ -28,9 +29,9 @@ const Header = () => {
           <BurgerMenu />
         </button>
 
-        <div className="flex flex-grow items-center z-50 transition justify-end duration-500 sm:justify-center sm:text-center ls:w-full ls:absolute ls:top-12 ls:-bottom-72 ls:m-auto">
+        <div className="flex flex-grow items-center z-50 transition justify-end duration-100 sm:justify-center sm:text-center ls:w-full ls:absolute ls:top-12 ls:-bottom-72 ls:m-auto">
           <FocusLock>
-            <ul className={!value ? 'ls:hidden flex list-none ml-auto transition-all duration-300' : 'menu-burger fixed inset-0 p-4 list-none ml-auto transition-all duration-300 ls:flex-col sm:justify-start ls:w-full ls:m-auto ls:items-center'}>
+            <ul className={!value ? 'ls:hidden flex list-none ml-auto transition-all duration-100' : 'menu-burger fixed inset-0 p-4 list-none ml-auto transition-all duration-300 ls:flex-col sm:justify-start ls:w-full ls:m-auto ls:items-center'}>
               <NavLink href="/" title="Home" />
               <NavLink href="/portfolio" title="Projects" />
               <NavLink href="/contact" title="Contact" />
@@ -45,7 +46,7 @@ const Header = () => {
               </li>
               <li className="w-full px-3 py-2 flex justify-center items-center">
                 <button onClick={toggleTheme}>
-                  {theme === 'light' ? '🌝' : '🌚'}
+                  {theme === 'light' ? <SunIcon /> : <MoonIcon />}
                 </button>
               </li>
               {value &&
