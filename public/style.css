@@ -90,6 +90,14 @@ body {
     color: rgb(239 246 255);
 }
 
+.light .close-btn {
+    background-color: #c8c8c8;
+}
+
+.light .nav-color {
+    background-color: #dfdfdf;
+}
+
 .dark {
     min-height: 100vh;
     background-color: #0a192f;
@@ -152,6 +160,14 @@ body {
 .dark .projects:hover a p,
 .dark .projects:hover a i {
     color: rgb(55 65 81);
+}
+
+.dark .close-btn {
+    background-color: #0d4ba8;
+}
+
+.dark .nav-color {
+    background-color: #1a3a6b;
 }
 
 @media screen and (max-width: 650px) {
@@ -316,20 +332,4 @@ body {
 
 .dark .top-arrow {
     background-color: #0d4ba8;
-}
-
-.light .close-btn {
-    background-color: #c8c8c8;
-}
-
-.dark .close-btn {
-    background-color: #0d4ba8;
-}
-
-.light .nav-color {
-    background-color: #dfdfdf;
-}
-
-.dark .nav-color {
-    background-color: #1a3a6b;
 }
