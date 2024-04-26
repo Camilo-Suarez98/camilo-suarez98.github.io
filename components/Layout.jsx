@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import Head from "next/head";
 
 import Header from "./Header";
@@ -11,10 +11,6 @@ import TechnologiesUsed from "./TechnologiesUsed";
 
 const Layout = ({ title, children }) => {
   const { theme } = useContext(ThemeContext);
-  const [menu, setMenu] = useState('inline');
-  const showMenu = () => {
-    setMenu(menu === 'inline' ? 'hidden' : 'inline');
-  };
 
   return (
     <div>
