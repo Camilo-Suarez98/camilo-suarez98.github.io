@@ -2,7 +2,7 @@
 
 This project was developed using Next.js for and TailwindCSS.
 
-Here is the project deplyed in Vercel: https://camilo-suarez98-github-io.vercel.app/
+Here is the project deployed in Vercel: https://camilo-suarez98-github-io.vercel.app/
 
 ## Characteristics of the project:
 - Light/Dark mode
@@ -21,7 +21,7 @@ The things you will need to install the software are a computer that isn't too o
 
 1. Clone the repositories to your computer:
 ```
-git clone git@github.com:Camilo-Suarez98/Camilo-Suarez98.github.io
+git clone git@github.com:Camilo-Suarez98/Camilo-Suarez98.github.io.git
 
 ```
 
