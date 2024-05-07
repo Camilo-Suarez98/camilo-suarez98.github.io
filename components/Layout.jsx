@@ -45,9 +45,21 @@ const Layout = ({ title, children }) => {
             <h2 className="text-xl">This page was created with</h2>
           </div>
           <div className="w-3/4 m-auto grid grid-cols-3 sm:grid-cols-2">
-            <TechnologiesUsed icon={reactIcon} technologyName="ReactJS" />
-            <TechnologiesUsed icon={nextIcon} technologyName="NextJS" />
-            <TechnologiesUsed icon={tailwindIcon} technologyName="TailwindCSS" />
+            <TechnologiesUsed
+              href="https://es.react.dev/"
+              icon={reactIcon}
+              technologyName="ReactJS"
+            />
+            <TechnologiesUsed
+              href="https://nextjs.org/"
+              icon={nextIcon}
+              technologyName="NextJS"
+            />
+            <TechnologiesUsed
+              href="https://tailwindcss.com/"
+              icon={tailwindIcon}
+              technologyName="TailwindCSS"
+            />
           </div>
         </div>
 
