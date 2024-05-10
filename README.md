@@ -1,8 +1,8 @@
 # My Personal Portfolio - A project to show my projects 💻
 
-This project was developed using Next.js for and TailwindCSS.
+This project was developed using Next.js and TailwindCSS.
 
-Here is the project deployed in Vercel: https://camilo-suarez98-github-io.vercel.app/
+Here is the project deployed in Vercel: https://camilo-suarez98-github-io
 
 ## Characteristics of the project:
 - Light/Dark mode
@@ -38,14 +38,14 @@ git clone git@github.com:Camilo-Suarez98/Camilo-Suarez98.github.io.git
 
 ```
 
-2. Change directory to /elemental-frontend:
+2. Change directory to /Camilo-Suarez98.github.io:
 ```
 cd Camilo-Suarez98.github.io
 ```
 
 3. Install the frontend and backend dependencies:
 
-Make sure to have installed Node.js:
+Make sure you have Node.js installed:
 ```
 sudo apt install nodejs npm
 ```
@@ -59,23 +59,23 @@ OR
 npm i
 ```
 
-4. In this project i am using Node 16.
+4. In this project, I am using Node 16.
 Make sure you have installed that version
 ```
 node -v
 ```
 
-5. If you have not installed it
+5. If you have not installed it yet:
 ```
 nvm install 16.16.0
 ```
 
-6. Then you can use that version
+6. Then you can use that version:
 ```
 nvm use 16.16.0
 ```
 
-4. Run the code!
+7. Run the code!
 
 Make sure to be in each repository:
 ```
@@ -87,7 +87,7 @@ Once there, execute
 npm run dev
 ```
 
-## Built with 🛠️
+## Built with 🛠️:
 
 - Next: [https://nextjs.org/](https://nextjs.org/)
 - TailwindCSS [https://tailwindcss.com/](https://tailwindcss.com/)
