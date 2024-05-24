@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Buttons from "../components/Buttons";
 import Social from "../components/Social";
 import TitlePage from "../components/TitlePage";
+import { IconCloudDemo } from "../components/IconCloudDemo";
 
 export default function Home() {
   return (
@@ -19,6 +20,10 @@ export default function Home() {
           <Buttons />
         </div>
         <Social />
+        <h3 className="text-center text-2xl">Technologies I have used</h3>
+        <div className="flex justify-center items-center">
+          <IconCloudDemo />
+        </div>
       </Layout>
     </>
   );

@@ -3,11 +3,7 @@ import Head from "next/head";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import nextIcon from "/public/nextjs-icon.svg";
-import reactIcon from "/public/react-icon.svg";
-import tailwindIcon from "/public/tailwind-icon.svg";
 import { ThemeContext } from "/context/ThemeContext";
-import TechnologiesUsed from "./TechnologiesUsed";
 
 const Layout = ({ title, children }) => {
   const { theme } = useContext(ThemeContext);
@@ -40,32 +36,9 @@ const Layout = ({ title, children }) => {
           {children}
         </div>
 
-        <div className="mb-6">
-          <div className="w-3/4 m-auto mb-10 text-center">
-            <h2 className="text-xl">This page was created with</h2>
-          </div>
-          <div className="w-3/4 m-auto grid grid-cols-3 sm:grid-cols-2">
-            <TechnologiesUsed
-              href="https://es.react.dev/"
-              icon={reactIcon}
-              technologyName="ReactJS"
-            />
-            <TechnologiesUsed
-              href="https://nextjs.org/"
-              icon={nextIcon}
-              technologyName="NextJS"
-            />
-            <TechnologiesUsed
-              href="https://tailwindcss.com/"
-              icon={tailwindIcon}
-              technologyName="TailwindCSS"
-            />
-          </div>
-        </div>
-
         <Footer />
       </div>
-    </div>
+    </div >
   );
 };
 
