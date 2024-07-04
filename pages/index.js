@@ -20,7 +20,7 @@ export default function Home() {
           <Buttons />
         </div>
         <Social />
-        <h3 className="text-center text-2xl">Technologies I have used</h3>
+        <h3 className="text-center text-2xl">Technologies I have used 👨🏻‍💻</h3>
         <div className="flex justify-center items-center">
           <IconCloudDemo />
         </div>
