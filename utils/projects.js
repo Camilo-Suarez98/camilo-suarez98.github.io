@@ -12,7 +12,7 @@ export const projects = [
     id: crypto.randomUUID(),
     img: '/project-images/playgreen.png',
     name: 'Playgreen Sports',
-    description: "This is the 'Tinder' for sport, where you can like or dislike different sports and you can see your selection history, This project includes login, register and logout function using firebase.",
+    description: "This is the 'Tinder' for sports, where you can like or dislike different sports and you can see your selection history, This project includes login, register and logout function using firebase.",
     builtWith: 'ReactJS, Firebase, Axios, and styled-components.',
     url: 'https://playgreen-sport-381a6.web.app',
     repo: 'https://github.com/Camilo-Suarez98/playgreen-sports'
