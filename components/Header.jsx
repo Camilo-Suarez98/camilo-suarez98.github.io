@@ -9,10 +9,13 @@ import logo from "/public/icono-portf.png";
 import BurgerMenu from "./BurgerMenu";
 import useToggleMenu from "../utils/useToggleMenu";
 import useEscapeKey from "../utils/useEscapeKey";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   const [value, toggleValue] = useToggleMenu(false);
+  const pathname = usePathname();
+  console.log(pathname);
 
   useEscapeKey(toggleValue);
 
