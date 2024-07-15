@@ -12,8 +12,8 @@ const Layout = ({ title, children }) => {
     <div>
       <Head>
         <title>{title} - Camilo S</title>
-        <link rel="icon" href="/icono-portf.png" />
         <meta name="description" content="Explore my project portfolio to discover my experience and skills in software development. Find examples of web sites i have created." />
+        <link rel="icon" href="/icono-portf.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
