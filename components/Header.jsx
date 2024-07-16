@@ -1,4 +1,5 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import NavLink from "./NavLink";
@@ -9,10 +10,17 @@ import logo from "/public/icono-portf.png";
 import BurgerMenu from "./BurgerMenu";
 import useToggleMenu from "../utils/useToggleMenu";
 import useEscapeKey from "../utils/useEscapeKey";
+import { checkPageIsSelected } from "../utils/paintCurrentLink";
 
 const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   const [value, toggleValue] = useToggleMenu(false);
+  const pathname = usePathname();
+  const backgroundLink = checkPageIsSelected(theme, pathname);
+
+  useEffect(() => {
+    checkPageIsSelected();
+  }, [pathname]);
 
   useEscapeKey(toggleValue);
 
@@ -34,9 +42,9 @@ const Header = () => {
 
         <div className="flex flex-grow items-center z-50 transition justify-end duration-100 sm:justify-center sm:text-center ls:w-full ls:absolute ls:top-12 ls:-bottom-72 ls:m-auto">
           <ul className={!value ? 'ls:hidden flex list-none ml-auto transition-all duration-100' : 'menu-burger fixed inset-0 p-4 list-none ml-auto transition-all duration-300 ls:flex-col sm:justify-start ls:w-full ls:m-auto ls:items-center'}>
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/portfolio">Projects</NavLink>
-            <NavLink href="/contact">Contact</NavLink>
+            <NavLink background={pathname === "/" ? backgroundLink : ""} href="/">Home</NavLink>
+            <NavLink background={pathname === "/portfolio" ? backgroundLink : ""} href="/portfolio">Projects</NavLink>
+            <NavLink background={pathname === "/contact" ? backgroundLink : ""} href="/contact">Contact</NavLink>
             <li className="w-full">
               <a
                 href="https://drive.google.com/file/d/15h6n_X03FUTc6x5KbXa-MhcUPUVQ_lXg/view"
