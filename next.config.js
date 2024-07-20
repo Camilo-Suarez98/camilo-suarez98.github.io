@@ -21,4 +21,13 @@ module.exports = {
     }
     return config;
   },
+  async redirects() {
+    return [
+      {
+        source: 'https://camilo-suarez98-github-io.vercel.app/',
+        destination: 'https://camilo-suarez-dev.vercel.app/',
+        permanent: true,
+      }
+    ];
+  },
 };
