@@ -24,8 +24,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: 'https://camilo-suarez98-github-io.vercel.app/',
-        destination: 'https://camilo-suarez-dev.vercel.app/',
+        source: '/(.*)',
+        destination: 'https://camilo-suarez-dev.vercel.app/$1',
         permanent: true,
       }
     ];
