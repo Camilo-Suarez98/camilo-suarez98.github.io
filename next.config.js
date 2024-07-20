@@ -21,13 +21,4 @@ module.exports = {
     }
     return config;
   },
-  async redirects() {
-    return [
-      {
-        source: '/(.*)',
-        destination: 'https://camilo-suarez-dev.vercel.app/$1',
-        permanent: true,
-      }
-    ];
-  },
 };
