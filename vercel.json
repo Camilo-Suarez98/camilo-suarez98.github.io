@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://camilo-suarez-dev.vercel.app/",
+      "permanent": false
+    }
+  ]
+}
