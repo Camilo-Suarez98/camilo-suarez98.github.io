@@ -5,7 +5,7 @@ const TitlePage = ({ level = 2, value }) => {
     level > 6
   ) {
     throw new Error(`Unrecognized heading level: ${level}`);
-  }
+  };
 
   const HeadintTag = `h${level}`;
 
