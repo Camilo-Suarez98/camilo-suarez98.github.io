@@ -10,7 +10,7 @@ const TitlePage = ({ level = 2, value }) => {
   const HeadintTag = `h${level}`;
 
   return (
-    <HeadintTag className="font-semibold text-4xl text-center mt-4 mb-8">{value}</HeadintTag>
+    <HeadintTag className="font-semibold text-4xl text-center my-4">{value}</HeadintTag>
   );
 };
 
