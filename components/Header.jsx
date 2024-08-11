@@ -1,16 +1,16 @@
 import { useContext, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { SunIcon, MoonIcon } from '@radix-ui/react-icons';
 import Link from "next/link";
 import Image from "next/image";
-import NavLink from "./NavLink";
-import { SunIcon, MoonIcon } from '@radix-ui/react-icons';
 
 import { ThemeContext } from "../context/ThemeContext";
+import { checkPageIsSelected } from "../utils/paintCurrentLink";
+import NavLink from "./NavLink";
 import logo from "/public/icono-portf.png";
 import BurgerMenu from "./BurgerMenu";
 import useToggleMenu from "../utils/useToggleMenu";
 import useEscapeKey from "../utils/useEscapeKey";
-import { checkPageIsSelected } from "../utils/paintCurrentLink";
 
 const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);

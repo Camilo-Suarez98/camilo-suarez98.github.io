@@ -1,8 +1,11 @@
+import Image from "next/image";
+
+import { IconCloudDemo } from "../components/IconCloudDemo";
 import Layout from "../components/Layout";
 import Buttons from "../components/Buttons";
 import Social from "../components/Social";
 import TitlePage from "../components/TitlePage";
-import { IconCloudDemo } from "../components/IconCloudDemo";
+import profileImage from "../public/profile.jpeg";
 
 export default function Home() {
   return (
@@ -14,13 +17,24 @@ export default function Home() {
             <TitlePage level={1} value="Hi! I'm..." />
           </div>
           <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Camilo+Suárez,;Self-taught+Front-End+Developer,;Love+to+learn+new+stuffs..<3" />
-          <p className="text-2xl text-gray-500 pb-12 text-center">
-            I'm a dedicated Frontend Developer located in Bucaramanga, Col 🇨🇴.
-            <br />
-            I am always looking for challenges that allow me to keep learning and evolving in this exciting field 💻.
-            <br />
-            🚀 I specialize in crafting exceptional web experiences, with a focus on user-centric design and robust functionality. My skill set includes: HTML, CSS, JavaScript, React, Next, GIT, TailwindCSS, styled-components and SASS.
-          </p>
+          <div className="flex flex-1 flex-row lg:flex-col">
+            <div className="shrink">
+              <p className="text-2xl text-gray-500 pb-12 text-center">
+                I'm a dedicated Frontend Developer located in Bucaramanga, Col 🇨🇴.
+                <br />
+                I am always looking for challenges that allow me to keep learning and evolving in this exciting field 💻.
+                <br />
+                🚀 I specialize in crafting exceptional web experiences, with a focus on user-centric design and robust functionality. My skill set includes: HTML, CSS, JavaScript, React, Next, GIT, TailwindCSS, styled-components and SASS.
+              </p>
+            </div>
+            <div>
+              <Image
+                src={profileImage}
+                className="rounded-full"
+                alt="Profile Image of Camilo"
+              />
+            </div>
+          </div>
           <Buttons />
         </div>
         <Social />

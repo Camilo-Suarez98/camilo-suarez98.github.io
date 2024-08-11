@@ -30,7 +30,7 @@ export const projects = [
     id: crypto.randomUUID(),
     img: '/project-images/rick-and-morty.png',
     name: 'Rick and Morty',
-    description: "This is a project to see all chaacters from famous Rick and Morty series, also you can see all info about episodes and locations.",
+    description: "This is a project to see all characters from famous Rick and Morty series, also you can see all the information about episodes and locations.",
     builtWith: 'ReactJS, TailwindCSS and Rick and Morty API.',
     url: 'https://rick-and-morty-graphql-mo.vercel.app/',
     repo: 'https://github.com/Camilo-Suarez98/rick-and-morty-graphql'

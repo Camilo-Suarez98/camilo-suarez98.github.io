@@ -4,13 +4,13 @@ import LinkButton from './LinkButton';
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="projects w-11/12 p-6 self-center justify-self-center transition-all duration-500 rounded-lg h-full hover:border-gray-100 hover:bg-gray-300 sm:w-64 sm:p-3 md:w-72">
+    <div className="projects w-11/12 p-6 self-center justify-self-center transition-all duration-500 rounded-3xl h-full hover:border-gray-100 hover:bg-gray-300 sm:w-64 sm:p-3 md:w-72">
       <Image
         src={project.img}
         width={450}
         height={300}
         alt={`Image from project called: ${project.name}`}
-        className="h-80 sm:h-52 object-fill"
+        className="h-80 object-fill rounded-3xl sm:h-52"
         priority
       />
       <h3 className="project-title my-4 text-3xl font-black md:text-xl">{project.name}</h3>
