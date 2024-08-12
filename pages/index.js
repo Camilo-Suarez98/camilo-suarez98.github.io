@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Layout title="Home">
-        <div className="flex flex-col justify-around items-center h-auto mt-12 h-80 w-full ls:h-5/6 md:mt-16 lg:mt-24">
+        <div className="flex flex-col justify-around items-center h-auto mt-12 w-full ls:h-5/6 md:mt-16 lg:mt-24">
           <div className="flex items-center">
             <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" height="35" />
             <TitlePage level={1} value="Hi! I'm..." />
