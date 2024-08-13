@@ -19,7 +19,9 @@ const contact = () => {
 
   return (
     <Layout title="Contact">
-      <TitlePage level={1} value="Contact Form" />
+      <div className='animate-fadeInTop mt-12'>
+        <TitlePage level={1} value="Contact Form" />
+      </div>
       <div className="flex flex-col items-center justify-start py-7 w-full">
         <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Send me a message</h2>
