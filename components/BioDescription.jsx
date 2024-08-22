@@ -1,6 +1,6 @@
 const BioDescription = () => {
   return (
-    <p className="text-2xl text-gray-500 pb-12 text-center animate-fadeInLeft">
+    <p className="text-2xl text-gray-500 text-center animate-fadeInLeft lg:pb-16">
       I'm a dedicated Frontend Developer located in Bucaramanga, Colombia 🇨🇴.
       <br />
       I am always looking for challenges that allow me to keep learning and evolving in this exciting field 💻.
