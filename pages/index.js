@@ -17,7 +17,7 @@ export default function Home() {
             <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" height="35" />
             <TitlePage level={1} value="Hi! I'm..." />
           </div>
-          <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Camilo+Suárez,;Self-taught+Front-End+Developer,;Love+to+learn+new+stuffs..<3" />
+          <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Camilo+Suárez,;FullStack+Developer,;Love+to+learn+new+stuffs..<3" />
           <div className="flex flex-1 flex-row items-center mb-14 lg:flex-col lg:mb-0">
             <div className="shrink">
               <BioDescription />
