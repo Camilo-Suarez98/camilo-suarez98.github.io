@@ -18,7 +18,7 @@ export default function Home() {
             <TitlePage level={1} value="Hi! I'm..." />
           </div>
           <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Camilo+Suárez,;FullStack+Developer,;Love+to+learn+new+stuffs..<3" />
-          <div className="flex flex-1 flex-row items-center mb-14 lg:flex-col lg:mb-0">
+          <div className="flex flex-1 flex-row items-center lg:flex-col">
             <div className="shrink">
               <BioDescription />
             </div>
@@ -28,12 +28,12 @@ export default function Home() {
                 className="rounded-full"
                 alt="Profile Image of Camilo"
               />
+              <Social />
             </div>
           </div>
           <Buttons />
         </div>
-        <Social />
-        <h3 className="text-center text-2xl">Technologies I have used 👨🏻‍💻</h3>
+        <h3 className="text-center text-4xl">Skills 👨🏻‍💻</h3>
         <div className="flex justify-center items-center">
           <IconCloudDemo />
         </div>
