@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import { IconCloudDemo } from "../components/IconCloudDemo";
 import Layout from "../components/Layout";
 import Buttons from "../components/Buttons";
 import Social from "../components/Social";
 import TitlePage from "../components/TitlePage";
 import BioDescription from "/components/BioDescription";
+import TechStack from "../components/TechStack";
 import profileImage from "../public/profile.jpeg";
 
 export default function Home() {
@@ -33,9 +33,9 @@ export default function Home() {
           </div>
           <Buttons />
         </div>
-        <h3 className="text-center text-4xl">Skills 👨🏻‍💻</h3>
-        <div className="flex justify-center items-center">
-          <IconCloudDemo />
+        <div className="my-14">
+          <h3 className="text-center text-4xl mb-16">Skills 👨🏻‍💻</h3>
+          <TechStack />
         </div>
       </Layout>
     </>
