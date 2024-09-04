@@ -7,12 +7,14 @@ const Social = () => {
         <SocialLink
           url="https://www.linkedin.com/in/camilosc98/"
           icon="fab fa-linkedin fa-2x icon"
+          hoverColor="linkedin"
         />
       </div>
       <div className="flex flex-col">
         <SocialLink
           url="https://github.com/Camilo-Suarez98"
           icon="fab fa-github fa-2x icon"
+          hoverColor="github"
         />
       </div>
     </div>

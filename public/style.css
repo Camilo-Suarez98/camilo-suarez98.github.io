@@ -5,6 +5,13 @@ body {
 
 .link:hover {
     font-weight: bold;
+}
+
+.github:hover {
+    color: #686868;
+}
+
+.linkedin:hover {
     color: rgb(29 78 216);
 }
 
