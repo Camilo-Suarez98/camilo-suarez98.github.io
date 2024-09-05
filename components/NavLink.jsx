@@ -6,7 +6,7 @@ const NavLink = ({ href, children, background }) => {
       <Link
         href={href}
         className="px-3 py-2 flex items-center text-sm uppercase font-bold rounded-lg leading-snug text-gray-800 transition duration-500 hover:text-blue-700 ls:w-full ls:py-5 ls:justify-center"
-        style={{ backgroundColor: background }}
+        style={background ? { backgroundColor: background } : null}
       >
         {children}
       </Link>
