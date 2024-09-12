@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
         width={450}
         height={300}
         alt={`Image from project called: ${project.name}`}
-        className="h-80 object-fill rounded-3xl sm:h-52"
+        className="h-80 w-full object-fill rounded-3xl sm:h-52"
         priority
       />
       <h3 className="project-title my-4 text-3xl font-black md:text-xl">{project.name}</h3>
