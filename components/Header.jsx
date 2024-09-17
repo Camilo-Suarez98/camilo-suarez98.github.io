@@ -56,7 +56,7 @@ const Header = () => {
             </li>
             <li className="w-full px-3 py-2 flex justify-center items-center ls:py-4">
               <button onClick={toggleTheme}>
-                {theme === 'light' ? <SunIcon className="w-6 h-6" /> : <MoonIcon className="w-6 h-86" />}
+                {theme === 'light' ? <SunIcon className="w-6 h-6" /> : <MoonIcon className="w-6 h-86 text-gray-800" />}
               </button>
             </li>
             {value &&
