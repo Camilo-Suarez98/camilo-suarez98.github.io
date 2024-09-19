@@ -41,7 +41,7 @@ const Header = () => {
         </button>
 
         <div className="flex flex-grow items-center z-50 transition justify-end duration-100 sm:justify-center sm:text-center ls:w-full ls:absolute ls:top-12 ls:-bottom-72 ls:m-auto">
-          <ul className={!value ? 'ls:hidden flex list-none ml-auto transition-all duration-100' : 'menu-burger fixed inset-0 p-4 list-none ml-auto transition-all duration-300 ls:flex-col sm:justify-start ls:w-full ls:m-auto ls:items-center'}>
+          <ul className={!value ? 'ls:hidden flex items-center gap-x-4 list-none ml-auto transition-all duration-100' : 'menu-burger fixed inset-0 p-4 list-none flex gap-y-5 ml-auto transition-all duration-300 ls:flex-col sm:justify-center ls:w-full ls:m-auto ls:items-center'}>
             <NavLink background={pathname === "/" ? backgroundLink : ""} href="/">Home</NavLink>
             <NavLink background={pathname === "/portfolio" ? backgroundLink : ""} href="/portfolio">Projects</NavLink>
             <NavLink background={pathname === "/contact" ? backgroundLink : ""} href="/contact">Contact</NavLink>
@@ -55,7 +55,7 @@ const Header = () => {
               </a>
             </li>
             <li className="w-full px-3 py-2 flex justify-center items-center ls:py-4">
-              <button onClick={toggleTheme}>
+              <button className="w-full flex justify-center" onClick={toggleTheme}>
                 {theme === 'light' ? <SunIcon className="w-6 h-6" /> : <MoonIcon className="w-6 h-86 text-gray-800" />}
               </button>
             </li>
