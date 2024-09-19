@@ -37,7 +37,7 @@ const contact = () => {
             />
             <button
               type="submit"
-              className="projects buttons-color-letter text-indigo-50 font-bold py-2 px-4 rounded-md mt-4 transition ease-in-out duration-150"
+              className="projects button buttons-color-letter text-indigo-50 font-bold py-2 px-4 rounded-md mt-4 transition ease-in-out duration-150"
             >
               Send
             </button>
