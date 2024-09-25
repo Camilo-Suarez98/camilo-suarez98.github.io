@@ -23,8 +23,6 @@ const Layout = ({ title, children }) => {
         <div className="w-3/4 m-auto h-full ls:mt-0 flex flex-col justify-evenly flex-wrap">
           {children}
         </div>
-
-        <Footer />
       </div>
     </div >
   );

@@ -114,6 +114,10 @@ body {
     background-color: #0d4ba8;
 }
 
+.dark h2 {
+    color: rgb(239 246 255);
+}
+
 .dark .button {
     background-color: #1a3a6b;
 }
