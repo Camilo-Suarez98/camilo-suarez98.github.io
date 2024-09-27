@@ -4,23 +4,11 @@ This project was developed using Next.js and TailwindCSS.
 
 Here is the project deployed in Vercel: https://camilo-suarez98-github-io
 
-## Characteristics of the project:
+## Project Features:
 - Light/Dark mode
 - A Contact form
 - A list of different projects with url from repo and deploy
 - Responsive design (Mobile First)
-
-### Home page with Dark mode(default)
-<img width="1316" alt="image" src="https://github.com/Camilo-Suarez98/Camilo-Suarez98.github.io/assets/68169750/542cc3a7-2994-4945-a7d5-4cb4c3df8067">
-
-### Home page with Light mode
-<img width="1316" alt="image" src="https://github.com/Camilo-Suarez98/Camilo-Suarez98.github.io/assets/68169750/70767753-7e32-4e6e-b0d5-c774292f3219">
-
-### Projects page
-<img width="1342" alt="image" src="https://github.com/Camilo-Suarez98/Camilo-Suarez98.github.io/assets/68169750/ba64700b-6bc0-4a8d-8079-62d3c6d318de">
-
-### Contact Page
-<img width="1317" alt="image" src="https://github.com/Camilo-Suarez98/Camilo-Suarez98.github.io/assets/68169750/f8211df6-3053-4bc5-b152-b5a17fe339bf">
 
 ## Start running 🚀
 
@@ -90,6 +78,7 @@ npm run dev
 ## Built with 🛠️:
 
 - Next: [https://nextjs.org/](https://nextjs.org/)
+- React: [https://react.dev/](https://react.dev/)
 - TailwindCSS [https://tailwindcss.com/](https://tailwindcss.com/)
 
 ## Author ✒️
