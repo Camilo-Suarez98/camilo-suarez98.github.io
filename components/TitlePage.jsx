@@ -7,10 +7,10 @@ const TitlePage = ({ level = 2, value }) => {
     throw new Error(`Unrecognized heading level: ${level}`);
   };
 
-  const HeadintTag = `h${level}`;
+  const HeadingTag = `h${level}`;
 
   return (
-    <HeadintTag className="font-semibold text-4xl text-center my-4">{value}</HeadintTag>
+    <HeadingTag className="font-semibold text-4xl text-center my-4">{value}</HeadingTag>
   );
 };
 

@@ -7,7 +7,7 @@ import Image from "next/image";
 import { ThemeContext } from "../context/ThemeContext";
 import { checkPageIsSelected } from "../utils/paintCurrentLink";
 import NavLink from "./NavLink";
-import logo from "/public/icono-portf.png";
+import logo from "/public/icon-portfolio.png";
 import BurgerMenu from "./BurgerMenu";
 import useToggleMenu from "../utils/useToggleMenu";
 import useEscapeKey from "../utils/useEscapeKey";

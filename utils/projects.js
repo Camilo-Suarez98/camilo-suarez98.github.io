@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     id: crypto.randomUUID(),
-    img: '/project-images/tenis-league.png',
+    img: '/project-images/tennis-league.png',
     name: 'Tennis League',
     description: "This is a project to create, update and register for different tennis tournaments. It's possible to login with third party libraries like Google.",
     builtWith: 'ReactJS, Node.JS, Express, TailwindCSS and MongoDB.',
