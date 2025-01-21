@@ -44,7 +44,7 @@ const Header = () => {
           <ul className={!value ? 'ls:hidden flex items-center gap-x-4 list-none ml-auto transition-all duration-100' : 'menu-burger fixed inset-0 p-4 list-none flex gap-y-5 ml-auto transition-all duration-300 ls:flex-col sm:justify-center ls:w-full ls:m-auto ls:items-center'}>
             <NavLink background={pathname === "/" ? backgroundLink : ""} href="/">Home</NavLink>
             <NavLink background={pathname === "/portfolio" ? backgroundLink : ""} href="/portfolio">Projects</NavLink>
-            <NavLink background={pathname === "/contact" ? backgroundLink : ""} href="/contact">Contact</NavLink>
+            {/* <NavLink background={pathname === "/contact" ? backgroundLink : ""} href="/contact">Contact</NavLink> */}
             <li className="w-full">
               <a
                 href="https://drive.google.com/file/d/1_Y1KwhGc3zwi8ElA7wabM1GcRuAQia0g/view?usp=drive_link"
