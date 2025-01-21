@@ -2,7 +2,7 @@
 
 This project was developed using Next.js and TailwindCSS.
 
-Here is the project deployed in Vercel: https://camilo-suarez98-github-io
+Here is the project deployed in Vercel: [Portfolio](https://camilo-suarez-dev.vercel.app/)
 
 ## Project Features:
 - Light/Dark mode
