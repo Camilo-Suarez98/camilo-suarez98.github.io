@@ -84,7 +84,9 @@ body {
 .light .projects:hover a .language-project,
 .light .projects:hover a .project-icon,
 .light h3,
-.light p {
+.light p,
+.light div,
+.light time {
     color: rgb(55 65 81);
 }
 
@@ -106,7 +108,8 @@ body {
     position: relative;
 }
 
-.dark .burger span {
+.dark .burger span,
+.dark hr {
     background-color: #fff;
 }
 
@@ -114,7 +117,9 @@ body {
     background-color: #0d4ba8;
 }
 
-.dark h2 {
+.dark h2,
+.dark div,
+.dark time {
     color: rgb(239 246 255);
 }
 

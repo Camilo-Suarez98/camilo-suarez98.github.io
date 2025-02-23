@@ -7,6 +7,7 @@ import TitlePage from "../components/TitlePage";
 import BioDescription from "/components/BioDescription";
 import TechStack from "../components/TechStack";
 import profileImage from "../public/profile.jpeg";
+import Timeline from "../components/Timeline";
 
 export default function Home() {
   return (
@@ -32,6 +33,10 @@ export default function Home() {
             </div>
           </div>
           <Buttons />
+        </div>
+        <h3 className="text-center text-4xl mb-16">Experience 💼</h3>
+        <div className="my-14">
+          <Timeline />
         </div>
         <div className="my-14">
           <h3 className="text-center text-4xl mb-16">Skills 👨🏻‍💻</h3>
