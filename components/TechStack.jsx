@@ -1,12 +1,12 @@
 const TechStack = () => {
   return (
     <div className="flex justify-center items-center gap-8 flex-wrap">
-      <div className="tooltip projects flex flex-col place-items-center p-8 rounded-3xl" data-tip="TypeScript">
-        <img className="w-48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+      <div className="tooltip projects flex flex-col place-items-center p-8 rounded-3xl" data-tip="JavaScript">
+        <img className="w-48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
       </div>
 
-      <div className="tooltip projects flex flex-col place-items-center p-8 rounded-3xl" data-tip="php">
-        <img className="w-48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+      <div className="tooltip projects flex flex-col place-items-center p-8 rounded-3xl" data-tip="TypeScript">
+        <img className="w-48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
       </div>
 
       <div className="tooltip projects flex flex-col place-items-center p-8 rounded-3xl" data-tip="WordPress">
