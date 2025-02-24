@@ -18,7 +18,7 @@ export default function Home() {
             <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" height="35" />
             <TitlePage level={1} value="Hi! I'm..." />
           </div>
-          <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Camilo+Suárez,;Full+Stack+Developer,;Love+to+learn+new+stuffs..<3" />
+          <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Camilo+Suárez,;Frontend+Developer,;Love+to+learn+new+stuffs..<3" />
           <div className="flex flex-1 flex-row items-center lg:flex-col">
             <div className="shrink">
               <BioDescription />
@@ -34,11 +34,11 @@ export default function Home() {
           </div>
           <Buttons />
         </div>
-        <h3 className="text-center text-4xl mb-16">Experience 💼</h3>
-        <div className="my-14">
+        <h3 className="text-center text-4xl mt-10 mb-4">Experience 💼</h3>
+        <div className="my-14 md:my-8">
           <Timeline />
         </div>
-        <div className="my-14">
+        <div className="my-14 md:my-8">
           <h3 className="text-center text-4xl mb-16">Skills 👨🏻‍💻</h3>
           <TechStack />
         </div>
