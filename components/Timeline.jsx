@@ -17,9 +17,9 @@ const Timeline = () => {
                 clipRule="evenodd" />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic text-sm">2023 - Currently</time>
-            <div className="text-lg font-black text-base">Frontend Developer</div>
+          <div className="timeline-start mb-10 text-lg md:text-end lg:text-sm">
+            <time className="font-mono italic text-xl lg:text-sm">2023 - Currently</time>
+            <div className="text-lg font-black text-xl lg:text-base">Frontend Developer</div>
             <div className="text-lg font-bold text-base">Freelance</div>
             - I have developed websites and landing pages for several US-based companies using different technologies, enhancing their online presence
             and showcasing expertise in web technologies and design trends
@@ -41,7 +41,7 @@ const Timeline = () => {
                 clipRule="evenodd" />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end">
+          <div className="timeline-start mb-10 md:text-end text-sm">
             <time className="font-mono italic text-sm">2022</time>
             <div className="text-lg font-black text-base">Frontend Developer</div>
             <div className="text-lg font-bold text-base">Genco</div>
@@ -65,9 +65,9 @@ const Timeline = () => {
                 clipRule="evenodd" />
             </svg>
           </div>
-          <div className="timeline-end text-sm md:mb-10">
-            <time className="font-mono italic text-sm">2022</time>
-            <div className="text-lg font-black text-base">Frontend Developer</div>
+          <div className="timeline-end text-lg md:mb-10 lg:text-sm">
+            <time className="font-mono italic text-xl lg:text-sm">2022</time>
+            <div className="text-lg font-black text-xl lg:text-base">Frontend Developer</div>
             <div className="text-lg font-bold text-base">Genco</div>
             - I developed responsive and user-friendly interfaces using HTML, CSS,
             JavaScript and React to improve website functionality and enhance the user experience. In addition, created landing pages for marketing campaigns.
