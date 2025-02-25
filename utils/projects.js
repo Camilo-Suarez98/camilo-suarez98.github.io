@@ -1,6 +1,33 @@
 export const projects = [
   {
     id: crypto.randomUUID(),
+    img: '/project-images/cxp.png',
+    name: 'CXP',
+    description: 'This is a landging page about different cryptos, the project include 2 galleries for crypto prices(fake price) and other in the bottom with a gallery of videos.',
+    builtWith: 'NextJS and TailwindCSS',
+    url: 'https://cxp-steel.vercel.app',
+    repo: 'https://github.com/Camilo-Suarez98/cxp'
+  },
+  {
+    id: crypto.randomUUID(),
+    img: '/project-images/filepass.png',
+    name: 'FilePass',
+    description: 'This is a project to Drag&Drop files, including a login function(including load state and error information) and the dashboard is protected if user is not logged.',
+    builtWith: 'React, TailwindCSS and Reques.in to login',
+    url: 'https://file-pass-sooty.vercel.app',
+    repo: 'https://github.com/Camilo-Suarez98/file-pass'
+  },
+  {
+    id: crypto.randomUUID(),
+    img: '/project-images/promocar.png',
+    name: 'Promo-Car',
+    description: 'This is a projectfor clients of a company to complete a form to get a unique code for participate in a car raffle(just an project not real).',
+    builtWith: 'NextJ and TailwindCSS',
+    url: 'https://promo-car.vercel.app',
+    repo: 'https://github.com/Camilo-Suarez98/promo-car'
+  },
+  {
+    id: crypto.randomUUID(),
     img: '/project-images/pokedex.png',
     name: 'PokeDex',
     description: 'This is a project to show different characters from the famous Pokemon series, you can search by name or by id to see information about any Pokemon.',
