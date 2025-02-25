@@ -47,7 +47,7 @@ const Timeline = () => {
             <div className="text-lg font-bold text-base">Genco</div>
             - I developed responsive and user-friendly interfaces using HTML, CSS, JavaScript and React to improve website functionality and enhance the user experience. In addition, created landing pages for marketing campaigns.
             <br />
-            - Collaborated with the design and product team to implement new features and optimise existing code to improve site performance.
+            - I collaborated with the design and product team to implement new features and optimise existing code to improve site performance.
           </div>
           <hr />
         </li>
@@ -72,7 +72,7 @@ const Timeline = () => {
             - I developed responsive and user-friendly interfaces using HTML, CSS,
             JavaScript and React to improve website functionality and enhance the user experience. In addition, created landing pages for marketing campaigns.
             <br />
-            - Collaborated with the design and product team to implement new features and optimise existing code to improve site performance.
+            - I collaborated with the design and product team to implement new features and optimise existing code to improve site performance.
           </div>
         </li>
       </ul>
